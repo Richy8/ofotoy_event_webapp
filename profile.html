@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="wt-asset/css/app.css">
+    <link rel="stylesheet" href="wt-asset/css/themify-icons.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Ofotoy - Profile</title>
+</head>
+<body class="fade-bg">
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand navbar-query py-1 cloud-bg position-fixed w-100 fixed-top">
+            <div class="container-fluid mx-sm-0 mx-md-5">
+                <!-- LARGR VIEW -->
+               <div class="large-view d-none d-md-flex justify-content-between align-items-center w-100">
+                   <!-- Left Nav -->
+                   <div class="left-nav d-flex justify-content-between align-items-center w-75">
+
+                        <div class="brand d-flex align-items-center">
+                            <div class="otyCamera new-dimension">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" style=" fill:#fff;">
+                                    <g id="surface1"><path style=" " d="M 17 5 C 15.683594 5 14.894531 6.273438 14.125 7.5 C 13.816406 7.992188 13.234375 8.90625 13 9 L 3 9 C 1.347656 9 0 10.347656 0 12 L 0 39 C 0 40.652344 1.347656 42 3 42 L 47 42 C 48.652344 42 50 40.652344 50 39 L 50 12 C 50 10.347656 48.652344 9 47 9 L 37.03125 9 C 36.753906 8.898438 36.183594 7.992188 35.875 7.5 C 35.105469 6.273438 34.316406 5 33 5 Z M 25 11 C 32.167969 11 38 16.832031 38 24 C 38 31.167969 32.167969 37 25 37 C 17.832031 37 12 31.167969 12 24 C 12 16.832031 17.832031 11 25 11 Z M 25 13 C 18.933594 13 14 17.933594 14 24 C 14 30.066406 18.933594 35 25 35 C 31.066406 35 36 30.066406 36 24 C 36 17.933594 31.066406 13 25 13 Z M 8 14 L 9 14 C 10.105469 14 11 14.894531 11 16 C 11 17.105469 10.105469 18 9 18 L 8 18 C 6.894531 18 6 17.105469 6 16 C 6 14.894531 6.894531 14 8 14 Z M 25 15 C 29.964844 15 34 19.039063 34 24 C 34 28.964844 29.964844 33 25 33 C 20.039063 33 16 28.964844 16 24 C 16 19.039063 20.039063 15 25 15 Z M 25 17 C 21.140625 17 18 20.140625 18 24 C 18 27.859375 21.140625 31 25 31 C 28.859375 31 32 27.859375 32 24 C 32 20.140625 28.859375 17 25 17 Z "></path></g>
+                                </svg>
+                            </div>
+                            <div class="brand-name new-dimension-brand mt-2 ml-1 white-text">
+                                <h4 class="h4-responsive font-weight-bold">fotoy</h4>
+                            </div>
+                        </div>
+
+                        <!-- Search Bar -->
+                        <div class="search-bar">
+                            <form action="" method="POST" class="form-inline">
+                                <input type="hidden" name="check" value="search-block">
+                                <div class="form-frame d-flex justfy-content-center align-items-center">
+                                    <i class="fas fa-search font-small"></i>
+                                    <input type="text" name="" class="form-control new-form" placeholder="Search Events...">
+                                </div>
+                            </form>
+                        </div>
+
+                   </div>
+                   <!-- Left Nav -->
+    
+                   <!-- Right Nav -->
+                   <div class="right-nav">
+                       <!-- Display On Large Device -->
+                        <div class="right-nav-md d-flex justify-content-between align-items-center">
+                            <div class="message-notify mr-3">
+                                <i class="fas fa-envelope white-text font-small-mid"></i>
+                                <div class="custom-badge text-center">4</div>
+                            </div>
+
+                            <div class="notification mr-3">
+                                <i class="fas fa-bell white-text font-small-mid"></i>
+                                <div class="custom-badge text-center">12</div>
+                            </div>
+
+                           <!-- User Profile -->
+                           <div class="user-profile d-flex justify-content-center align-items-center">
+                              <div class="profile-name white-text font-12 mr-2 font-weight-400 position-relative">
+                                <span class="pointer logout-dropdown">Richyjones <i class="fas fa-caret-down pointer"></i></span>
+
+                                <div class="profile-outer-bar">
+                                    <div class="profile-bar white blue-text position-absolute z-depth-1">
+                                        <span class="d-block text-center font-12">  <a href=""><i class="fas fa-sign-out-alt mr-2"></i> Log out</a> </span>
+                                    </div>
+                                </div>
+
+                              </div>
+                              <div class="profile-image white">
+                                <img src="wt-asset/images/avatar.png" alt="customer care">
+                              </div>
+                           </div>
+                        </div>
+                   </div>
+                   <!-- Right Nav -->
+               </div>
+
+               <!-- MOBILE VIEW -->
+               <div class="mobile-view d-flex d-md-none justify-content-between align-items-center w-100">
+                   <!-- BRAND ICON -->
+                    <div class="brand d-flex align-items-center">
+                        <div class="otyCamera new-dimension">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" style=" fill:#fff;">
+                                <g id="surface1"><path style=" " d="M 17 5 C 15.683594 5 14.894531 6.273438 14.125 7.5 C 13.816406 7.992188 13.234375 8.90625 13 9 L 3 9 C 1.347656 9 0 10.347656 0 12 L 0 39 C 0 40.652344 1.347656 42 3 42 L 47 42 C 48.652344 42 50 40.652344 50 39 L 50 12 C 50 10.347656 48.652344 9 47 9 L 37.03125 9 C 36.753906 8.898438 36.183594 7.992188 35.875 7.5 C 35.105469 6.273438 34.316406 5 33 5 Z M 25 11 C 32.167969 11 38 16.832031 38 24 C 38 31.167969 32.167969 37 25 37 C 17.832031 37 12 31.167969 12 24 C 12 16.832031 17.832031 11 25 11 Z M 25 13 C 18.933594 13 14 17.933594 14 24 C 14 30.066406 18.933594 35 25 35 C 31.066406 35 36 30.066406 36 24 C 36 17.933594 31.066406 13 25 13 Z M 8 14 L 9 14 C 10.105469 14 11 14.894531 11 16 C 11 17.105469 10.105469 18 9 18 L 8 18 C 6.894531 18 6 17.105469 6 16 C 6 14.894531 6.894531 14 8 14 Z M 25 15 C 29.964844 15 34 19.039063 34 24 C 34 28.964844 29.964844 33 25 33 C 20.039063 33 16 28.964844 16 24 C 16 19.039063 20.039063 15 25 15 Z M 25 17 C 21.140625 17 18 20.140625 18 24 C 18 27.859375 21.140625 31 25 31 C 28.859375 31 32 27.859375 32 24 C 32 20.140625 28.859375 17 25 17 Z "></path></g>
+                            </svg>
+                        </div>
+                    </div>
+
+                     <!-- Search Bar -->
+                     <div class="left-nav">
+                         <div class="search-bar">
+                            <form action="" method="POST" class="form-inline">
+                                <input type="hidden" name="check" value="search-block">
+                                <div class="form-frame d-flex justfy-content-center align-items-center">
+                                    <i class="fas fa-search font-small"></i>
+                                    <input type="text" name="" class="form-control new-form" placeholder="Search Events...">
+                                </div>
+                            </form>
+                        </div>
+                     </div>
+
+                    <!-- PROFILE IMAGE -->
+                    <div class="profile-image white">
+                        <img src="wt-asset/images/avatar.png" alt="customer care">
+                    </div>
+
+               </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+
+        <div class="container-fluid timeline mt-3">
+            <div class="row">
+
+                <div class="col-3 left">
+                    <div class="left-bar rounded-5 white">
+                        <!-- Menu -->
+                        <div class="menu">
+                            <span class="d-block font-weight-400 cloud font-small-mid py-3 pl-4 border-bottom">MENU</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <?xml version="1.0" encoding="UTF-8" standalone="no"?> <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>home</title><path d="M11 17.874A4.002 4.002 0 0 1 12 10a4 4 0 0 1 1 7.874V20h5v-8a1 1 0 0 1 1-1h.394L12 4.345 4.606 11H5a1 1 0 0 1 1 1v8h2a1 1 0 0 1 0 2H5a1 1 0 0 1-1-1v-8H2c-.916 0-1.35-1.13-.669-1.743l10-9a1 1 0 0 1 1.338 0l10 9C23.35 11.87 22.916 13 22 13h-2v8a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1v-3.126zM12 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" fill="#000" fill-rule="nonzero"/></svg>
+                                    Home
+                                </li>
+                                <li> 
+                                    <?xml version="1.0" encoding="iso-8859-1"?>
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 100.353 100.353" style="enable-background:new 0 0 100.353 100.353;" xml:space="preserve">
+                                    <g>
+                                        <path style="fill:#231F20;" d="M33.46,43.065h-9.051c-0.829,0-1.5,0.671-1.5,1.5v9.045c0,0.829,0.671,1.5,1.5,1.5h9.051
+                                            c0.829,0,1.5-0.671,1.5-1.5v-9.045C34.96,43.737,34.288,43.065,33.46,43.065z M31.96,52.111h-6.051v-6.045h6.051V52.111z"/>
+                                        <path style="fill:#231F20;" d="M54.571,43.065h-9.054c-0.829,0-1.5,0.671-1.5,1.5v9.045c0,0.829,0.671,1.5,1.5,1.5h9.054
+                                            c0.829,0,1.5-0.671,1.5-1.5v-9.045C56.071,43.737,55.4,43.065,54.571,43.065z M53.071,52.111h-6.054v-6.045h6.054V52.111z"/>
+                                        <path style="fill:#231F20;" d="M33.46,63.677h-9.051c-0.829,0-1.5,0.672-1.5,1.5v9.051c0,0.829,0.671,1.5,1.5,1.5h9.051
+                                            c0.829,0,1.5-0.671,1.5-1.5v-9.051C34.96,64.349,34.288,63.677,33.46,63.677z M31.96,72.728h-6.051v-6.051h6.051V72.728z"/>
+                                        <path style="fill:#231F20;" d="M54.571,63.677h-9.054c-0.829,0-1.5,0.672-1.5,1.5v9.051c0,0.829,0.671,1.5,1.5,1.5h9.054
+                                            c0.829,0,1.5-0.671,1.5-1.5v-9.051C56.071,64.349,55.4,63.677,54.571,63.677z M53.071,72.728h-6.054v-6.051h6.054V72.728z"/>
+                                        <path style="fill:#231F20;" d="M75.024,63.677h-9.047c-0.829,0-1.5,0.672-1.5,1.5v9.051c0,0.829,0.671,1.5,1.5,1.5h9.047
+                                            c0.829,0,1.5-0.671,1.5-1.5v-9.051C76.524,64.349,75.852,63.677,75.024,63.677z M73.524,72.728h-6.047v-6.051h6.047V72.728z"/>
+                                        <path style="fill:#231F20;" d="M86.04,16.132h-9.111v-1.739c0-3.09-2.513-5.604-5.601-5.604c-3.09,0-5.604,2.514-5.604,5.604v1.739
+                                            H55.592v-1.739c0-3.09-2.513-5.604-5.601-5.604c-3.092,0-5.607,2.514-5.607,5.604v1.739H34.255v-1.739
+                                            c0-3.09-2.512-5.604-5.601-5.604c-3.092,0-5.607,2.514-5.607,5.604v1.739h-9.085c-0.829,0-1.5,0.671-1.5,1.5v72.08
+                                            c0,0.828,0.671,1.5,1.5,1.5h72.08c0.829,0,1.5-0.672,1.5-1.5v-72.08C87.54,16.803,86.869,16.132,86.04,16.132z M68.723,14.393
+                                            c0-1.437,1.168-2.604,2.604-2.604c1.434,0,2.601,1.168,2.601,2.604v7.676c0,1.436-1.167,2.604-2.601,2.604
+                                            c-1.436,0-2.604-1.168-2.604-2.604V14.393z M49.99,11.788c1.434,0,2.601,1.168,2.601,2.604v7.676c0,1.436-1.167,2.604-2.601,2.604
+                                            c-1.438,0-2.607-1.168-2.607-2.604v-4.272c0.006-0.055,0.017-0.108,0.017-0.165s-0.011-0.11-0.017-0.165v-3.074
+                                            C47.383,12.956,48.553,11.788,49.99,11.788z M26.046,14.393c0-1.437,1.17-2.604,2.607-2.604c1.434,0,2.601,1.168,2.601,2.604v7.676
+                                            c0,1.436-1.167,2.604-2.601,2.604c-1.438,0-2.607-1.168-2.607-2.604V14.393z M84.54,88.211H15.46v-69.08h7.585v2.937
+                                            c0,3.09,2.516,5.604,5.607,5.604c3.088,0,5.601-2.514,5.601-5.604v-2.937h10.129v2.937c0,3.09,2.516,5.604,5.607,5.604
+                                            c3.088,0,5.601-2.514,5.601-5.604v-2.937h10.132v2.937c0,3.09,2.514,5.604,5.604,5.604c3.088,0,5.601-2.514,5.601-5.604v-2.937
+                                            h7.611v69.08H84.54z"/>
+                                        <path style="fill:#231F20;" d="M76.683,38.729l-7.654,9.434l-3.193-3.048c-0.599-0.572-1.548-0.55-2.121,0.049
+                                            c-0.572,0.6-0.55,1.549,0.049,2.121l4.369,4.171c0.28,0.267,0.651,0.415,1.036,0.415c0.032,0,0.063-0.001,0.095-0.003
+                                            c0.418-0.026,0.806-0.227,1.07-0.552l8.679-10.696c0.522-0.643,0.423-1.588-0.22-2.11C78.15,37.987,77.205,38.086,76.683,38.729z"
+                                            />
+                                    </g>
+                                    </svg>
+                                        Events
+                                </li>
+    
+                                <li> 
+                                    <?xml version="1.0" encoding="UTF-8"?>
+                                    <svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+                                        <defs></defs>
+                                        <g id="22.-Message" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                            <g transform="translate(2.000000, 2.000000)" id="Layer-1" stroke="#222F3E" stroke-width="4">
+                                                <path d="M13.0612946,78.5539627 L5.75334225,78.5539627 C2.58017371,78.5539627 0,75.9749715 0,72.7936247 L0,5.76033797 C0,2.58010232 2.57585906,0 5.75334225,0 L90.2466578,0 C93.4198263,0 96,2.57899115 96,5.76033797 L96,72.7936247 C96,75.9738604 93.4241409,78.5539627 90.2466578,78.5539627 L28.5451465,78.5539627 C25.2869782,96 10.4598214,96.0000006 10.4598214,96 C10.4598214,95.9999995 16.0593495,85.8092728 13.0612946,78.5539627 Z"></path>
+                                            </g>
+                                        </g>
+                                    </svg> 
+                                    Messages
+                                    <div class="badge badge-pill badge-danger font-smallest ml-1">3</div>
+                                </li>
+
+                                <li> 
+                                    <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path>
+                                    </svg>
+                                    Notifications
+                                    <div class="badge badge-pill badge-danger font-smallest ml-1">20</div>
+                                </li>
+    
+                                <li> 
+                                    <?xml version='1.0' encoding='utf-8'?>
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129">
+                                        <g>
+                                        <g>
+                                            <circle cx="76" cy="42.4" r="6.6"/>
+                                            <path d="m6.4,119.5c0,0 0,0.1 0,0 0,0.1 0,0.1 0.1,0.1 0.1,0.2 0.2,0.5 0.3,0.7 0,0.1 0.1,0.1 0.1,0.2 0,0.1 0.1,0.1 0.1,0.2 0,0 0.1,0.1 0.1,0.1 0.1,0.2 0.3,0.3 0.4,0.5 0,0 0.1,0.1 0.1,0.1 0.1,0.1 0.1,0.1 0.2,0.2 0.1,0 0.1,0.1 0.1,0.1 0.1,0.1 0.2,0.1 0.3,0.2 0,0 0.1,0.1 0.1,0.1 0,0 0.1,0 0.1,0.1 0.1,0.1 0.3,0.1 0.4,0.2 0.1,0 0.1,0 0.2,0.1 0.1,0 0.2,0.1 0.2,0.1 0.3,0.1 0.6,0.1 0.9,0.1h108.2c2.3,0 4.1-1.8 4.1-4.1v-27-80.9c0-2.3-1.8-4.1-4.1-4.1h-107.9c-2.3,0-4.1,1.8-4.1,4.1v80.7 27c0,0.3 0.1,0.7 0.1,1 0,0.1 0,0.2 0,0.2zm108.1-5.2h-90.4l66.8-43.7 23.6,22.5v21.2zm-100-99.6h100v67.1l-20.3-19.4c-1.4-1.3-3.5-1.5-5.1-0.5l-19.1,12.6-13.3-13.4c-1.4-1.4-3.5-1.6-5.1-0.6l-37.1,23.4v-69.2zm0,78.9l38.7-24.4 9.8,9.9-48.5,31.7v-17.2z"/>
+                                        </g>
+                                        </g>
+                                    </svg>
+                                    Photos
+                                </li>
+
+                                <li class="active"> 
+                                    <div class="user-image">
+                                        <img src="wt-asset/images/avatar.png" alt="">
+                                    </div>
+                                    Profile
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <!-- NEW PICTURE PRIMTIMG -->
+                        <div class="print-photos ash-bg px-3 pb-2 mt-4 mx-2 mb-2 rounded-10">
+                            <div class="event-question white-text font-weight-bold text-center pt-3 font-small mb-3">Print your Photos</div>
+                            <p class="white-text font-12 text-center">
+                                Want to Print your photos online and get it hand delivered to you anywhere ?
+                            </p>
+                            <div class="d-flex justify-content-center align-items-center w-100 mb-2">
+                                <button class="btn btn-sm cloud-bg white-ic rounded-5 font-weight-400"> <i class="fas fa-print mr-2"></i> Print Now</button>
+                            </div>
+                        </div>
+
+                        <!-- Copyright -->
+                        <div class="copyright-info font-11-5 ash font-weight-400 d-flex justify-content-center align-items-end pb-2" style="height: 80px;">
+                            <div class="">
+                                Ofotoy &copy;2019. All Rights Reserved
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="outer-box w-100 d-flex justify-content-center">
+                    <div class="main px-2">
+
+                        <!-- MOBILE MENU TAB -->
+                        <div class="outer-row index-9">
+                            <div class="mobile-menu-tab d-none justify-content-around align-items-center white py-2 rounded-5">
+                               <div class="icon">
+                                    <svg version="1.1" id="event-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="rgb(10, 185, 238)" x="0px" y="0px"
+                                    viewBox="0 0 100.353 100.353" style="enable-background:new 0 0 100.353 100.353;" xml:space="preserve">
+                                    <g>
+                                        <path style="fill:#231F20;" d="M33.46,43.065h-9.051c-0.829,0-1.5,0.671-1.5,1.5v9.045c0,0.829,0.671,1.5,1.5,1.5h9.051
+                                            c0.829,0,1.5-0.671,1.5-1.5v-9.045C34.96,43.737,34.288,43.065,33.46,43.065z M31.96,52.111h-6.051v-6.045h6.051V52.111z"/>
+                                        <path style="fill:#231F20;" d="M54.571,43.065h-9.054c-0.829,0-1.5,0.671-1.5,1.5v9.045c0,0.829,0.671,1.5,1.5,1.5h9.054
+                                            c0.829,0,1.5-0.671,1.5-1.5v-9.045C56.071,43.737,55.4,43.065,54.571,43.065z M53.071,52.111h-6.054v-6.045h6.054V52.111z"/>
+                                        <path style="fill:#231F20;" d="M33.46,63.677h-9.051c-0.829,0-1.5,0.672-1.5,1.5v9.051c0,0.829,0.671,1.5,1.5,1.5h9.051
+                                            c0.829,0,1.5-0.671,1.5-1.5v-9.051C34.96,64.349,34.288,63.677,33.46,63.677z M31.96,72.728h-6.051v-6.051h6.051V72.728z"/>
+                                        <path style="fill:#231F20;" d="M54.571,63.677h-9.054c-0.829,0-1.5,0.672-1.5,1.5v9.051c0,0.829,0.671,1.5,1.5,1.5h9.054
+                                            c0.829,0,1.5-0.671,1.5-1.5v-9.051C56.071,64.349,55.4,63.677,54.571,63.677z M53.071,72.728h-6.054v-6.051h6.054V72.728z"/>
+                                        <path style="fill:#231F20;" d="M75.024,63.677h-9.047c-0.829,0-1.5,0.672-1.5,1.5v9.051c0,0.829,0.671,1.5,1.5,1.5h9.047
+                                            c0.829,0,1.5-0.671,1.5-1.5v-9.051C76.524,64.349,75.852,63.677,75.024,63.677z M73.524,72.728h-6.047v-6.051h6.047V72.728z"/>
+                                        <path style="fill:#231F20;" d="M86.04,16.132h-9.111v-1.739c0-3.09-2.513-5.604-5.601-5.604c-3.09,0-5.604,2.514-5.604,5.604v1.739
+                                            H55.592v-1.739c0-3.09-2.513-5.604-5.601-5.604c-3.092,0-5.607,2.514-5.607,5.604v1.739H34.255v-1.739
+                                            c0-3.09-2.512-5.604-5.601-5.604c-3.092,0-5.607,2.514-5.607,5.604v1.739h-9.085c-0.829,0-1.5,0.671-1.5,1.5v72.08
+                                            c0,0.828,0.671,1.5,1.5,1.5h72.08c0.829,0,1.5-0.672,1.5-1.5v-72.08C87.54,16.803,86.869,16.132,86.04,16.132z M68.723,14.393
+                                            c0-1.437,1.168-2.604,2.604-2.604c1.434,0,2.601,1.168,2.601,2.604v7.676c0,1.436-1.167,2.604-2.601,2.604
+                                            c-1.436,0-2.604-1.168-2.604-2.604V14.393z M49.99,11.788c1.434,0,2.601,1.168,2.601,2.604v7.676c0,1.436-1.167,2.604-2.601,2.604
+                                            c-1.438,0-2.607-1.168-2.607-2.604v-4.272c0.006-0.055,0.017-0.108,0.017-0.165s-0.011-0.11-0.017-0.165v-3.074
+                                            C47.383,12.956,48.553,11.788,49.99,11.788z M26.046,14.393c0-1.437,1.17-2.604,2.607-2.604c1.434,0,2.601,1.168,2.601,2.604v7.676
+                                            c0,1.436-1.167,2.604-2.601,2.604c-1.438,0-2.607-1.168-2.607-2.604V14.393z M84.54,88.211H15.46v-69.08h7.585v2.937
+                                            c0,3.09,2.516,5.604,5.607,5.604c3.088,0,5.601-2.514,5.601-5.604v-2.937h10.129v2.937c0,3.09,2.516,5.604,5.607,5.604
+                                            c3.088,0,5.601-2.514,5.601-5.604v-2.937h10.132v2.937c0,3.09,2.514,5.604,5.604,5.604c3.088,0,5.601-2.514,5.601-5.604v-2.937
+                                            h7.611v69.08H84.54z"/>
+                                        <path style="fill:#231F20;" d="M76.683,38.729l-7.654,9.434l-3.193-3.048c-0.599-0.572-1.548-0.55-2.121,0.049
+                                            c-0.572,0.6-0.55,1.549,0.049,2.121l4.369,4.171c0.28,0.267,0.651,0.415,1.036,0.415c0.032,0,0.063-0.001,0.095-0.003
+                                            c0.418-0.026,0.806-0.227,1.07-0.552l8.679-10.696c0.522-0.643,0.423-1.588-0.22-2.11C78.15,37.987,77.205,38.086,76.683,38.729z"
+                                            />
+                                    </g>
+                                    </svg>
+                               </div>
+                               <div class="icon">
+                                    <?xml version="1.0" encoding="UTF-8"?>
+                                    <svg id="message-icon" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+                                        <defs></defs>
+                                        <g id="22.-Message" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                            <g transform="translate(2.000000, 2.000000)" id="Layer-1" stroke="rgb(10, 185, 238)" stroke-width="4">
+                                                <path d="M13.0612946,78.5539627 L5.75334225,78.5539627 C2.58017371,78.5539627 0,75.9749715 0,72.7936247 L0,5.76033797 C0,2.58010232 2.57585906,0 5.75334225,0 L90.2466578,0 C93.4198263,0 96,2.57899115 96,5.76033797 L96,72.7936247 C96,75.9738604 93.4241409,78.5539627 90.2466578,78.5539627 L28.5451465,78.5539627 C25.2869782,96 10.4598214,96.0000006 10.4598214,96 C10.4598214,95.9999995 16.0593495,85.8092728 13.0612946,78.5539627 Z"></path>
+                                            </g>
+                                        </g>
+                                    </svg> 
+                                    <div class="notify-number">
+                                        <div class="text">4</div>
+                                    </div>
+                               </div>
+                               <div class="icon">
+                                    <svg id="notification-icon" xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="rgb(10, 185, 238)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path>
+                                    </svg>
+                                    <div class="notify-number">
+                                            <div class="text">9</div>
+                                    </div>
+                               </div>
+                               <div class="icon">
+                                    <?xml version='1.0' encoding='utf-8'?>
+                                    <svg version="1.1" id="photo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129" fill="rgb(10, 185, 238)">
+                                        <g>
+                                        <g>
+                                            <circle cx="76" cy="42.4" r="6.6"/>
+                                            <path d="m6.4,119.5c0,0 0,0.1 0,0 0,0.1 0,0.1 0.1,0.1 0.1,0.2 0.2,0.5 0.3,0.7 0,0.1 0.1,0.1 0.1,0.2 0,0.1 0.1,0.1 0.1,0.2 0,0 0.1,0.1 0.1,0.1 0.1,0.2 0.3,0.3 0.4,0.5 0,0 0.1,0.1 0.1,0.1 0.1,0.1 0.1,0.1 0.2,0.2 0.1,0 0.1,0.1 0.1,0.1 0.1,0.1 0.2,0.1 0.3,0.2 0,0 0.1,0.1 0.1,0.1 0,0 0.1,0 0.1,0.1 0.1,0.1 0.3,0.1 0.4,0.2 0.1,0 0.1,0 0.2,0.1 0.1,0 0.2,0.1 0.2,0.1 0.3,0.1 0.6,0.1 0.9,0.1h108.2c2.3,0 4.1-1.8 4.1-4.1v-27-80.9c0-2.3-1.8-4.1-4.1-4.1h-107.9c-2.3,0-4.1,1.8-4.1,4.1v80.7 27c0,0.3 0.1,0.7 0.1,1 0,0.1 0,0.2 0,0.2zm108.1-5.2h-90.4l66.8-43.7 23.6,22.5v21.2zm-100-99.6h100v67.1l-20.3-19.4c-1.4-1.3-3.5-1.5-5.1-0.5l-19.1,12.6-13.3-13.4c-1.4-1.4-3.5-1.6-5.1-0.6l-37.1,23.4v-69.2zm0,78.9l38.7-24.4 9.8,9.9-48.5,31.7v-17.2z"/>
+                                        </g>
+                                        </g>
+                                    </svg>
+                               </div>
+                               <div class="icon">                             
+                                    <?xml version="1.0" ?>
+                                    <svg data-name="Livello 1" id="profile-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" fill="rgb(10, 185, 238)">
+                                        <path d="M128,122a28.62,28.62,0,0,0-28.58-28.5H85.59a1.85,1.85,0,0,1-1.87-1.83V81.17l5.52-6.76a14.85,14.85,0,0,0,3.34-9.36V60.38A8,8,0,0,0,98,52.81v-8a8,8,0,0,0-5-7.42V34.1a13.49,13.49,0,0,0,8.31-20.81,3,3,0,0,0-4.56-.46A7.52,7.52,0,0,1,95,14.08,13.52,13.52,0,0,0,89.85,2.57a3,3,0,0,0-4.48.94,7.44,7.44,0,0,1-3,3A29,29,0,0,0,35,29v8.39a8,8,0,0,0-5,7.42v8a8,8,0,0,0,5.42,7.57v4.67a14.86,14.86,0,0,0,3.34,9.36l5.52,6.76v10.5a1.85,1.85,0,0,1-1.87,1.83H28.58A28.63,28.63,0,0,0,0,122.09V125a3,3,0,0,0,3,3H125a3,3,0,0,0,3-3ZM6,122A22.61,22.61,0,0,1,28.58,99.51H42.41a7.86,7.86,0,0,0,7.87-7.83V80.11a3,3,0,0,0-.68-1.9L43.4,70.62a8.84,8.84,0,0,1-2-5.57V57.81a3,3,0,0,0-3-3H38a2,2,0,0,1-2-2v-8a2,2,0,0,1,2-2,3,3,0,0,0,3-3V29A23,23,0,0,1,79.71,12.21a3,3,0,0,0,2.91.68,13.46,13.46,0,0,0,5.54-3.23,7.51,7.51,0,0,1,.1,6.9,3,3,0,0,0,2.51,4.34,13.58,13.58,0,0,0,6.77-1.38,7.5,7.5,0,0,1-2.06,6.69A7.3,7.3,0,0,1,90,28.39a3.15,3.15,0,0,0-2.15.86,3,3,0,0,0-.9,2.14v8.42a3,3,0,0,0,3,3,2,2,0,0,1,2,2v8a2,2,0,0,1-2,2h-.42a3,3,0,0,0-3,3v7.24a8.83,8.83,0,0,1-2,5.57L78.4,78.21a3,3,0,0,0-.68,1.9V91.67a7.86,7.86,0,0,0,7.87,7.83H99.42A22.61,22.61,0,0,1,122,122Z"/>
+                                    </svg>
+                               </div>
+                               <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke="rgb(10, 185, 238" stroke-linejoin="round" class="feather feather-menu">
+                                        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+                                    </svg>
+                               </div>
+                            </div>
+                        </div>
+                        <!-- MOBILE MENU TAB -->
+    
+                        <!-- Title-Bar -->
+                        <div class="title-bar p-3 white rounded-top-5 d-flex justify-content-start align-items-center">
+                            <div class="arrow cloud mr-4">
+                                <i class="fas fa-arrow-left"></i>
+                            </div>
+                            <div class="d-flex flex-column justify-content-start spectra">
+                                <div class="title add-space">Jessica Smith</div>
+                                <div class="event-created grey-text font-11-5">1,121 Events</div>
+                            </div>  
+                        </div> 
+                        
+                        <!-- Profile Bar -->
+                        <div class="profile-bar">
+                            <!-- Banner -->
+                            <div class="banner">
+                                <div class="view" style="background-image: url('wt-asset/images/graduation.jpg'); "></div>
+                            </div>
+                            <!-- Display photo -->
+                            <div class="display-photo cyan">
+                                <img src="wt-asset/images/avatar.png" alt="">
+                            </div>
+                            <!-- Profile Meta -->
+                            <div class="profile-meta white d-flex justify-content-end align-items-center w-100 px-3 py-2">
+                                <div class="edit-profile font-12 cloud rounded-20 px-3 py-2 pointer">
+                                    Edit profile
+                                </div>
+                                <div class="d-none message mr-3 p-2 rounded-circle">
+                                    <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48">
+                                        <title>Chat</title>
+                                        <g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1">
+                                        <path class="cls-1" d="M63.47,5.17A8,8,0,0,0,56,0H8A8,8,0,0,0,.48,5.33,7.44,7.44,0,0,0,0,8V40a8,8,0,0,0,5,7.41A7.85,7.85,0,0,0,8,48H56a7.32,7.32,0,0,0,2.85-.56A7.84,7.84,0,0,0,63,43.89,8,8,0,0,0,64,40V8A7.86,7.86,0,0,0,63.47,5.17ZM5.33,8A2.68,2.68,0,0,1,8,5.33H56A2.68,2.68,0,0,1,58.67,8v.51l-21.26,16L33,27.92l-1,.75-1-.78-4.46-3.33L5.33,8.61Zm0,32V15.28L22.11,27.89,5.39,40.45A2,2,0,0,1,5.33,40Zm6,2.67L26.56,31.23l3.84,2.9a2.64,2.64,0,0,0,3.2,0l3.81-2.88L52.53,42.67ZM58.67,40a2,2,0,0,1-.08.56L41.84,27.89,58.67,15.17Z"/></g></g>
+                                    </svg>
+                                </div>
+                                <div class="d-none follow font-12 cloud rounded-20 px-3 py-2 pointer">
+                                    Follow
+                                </div>
+                            </div>
+                            <!-- Profile Details -->
+                            <div class="profile-details white px-3 pb-1">
+                                <div class="display-name add-space font-weight-bold">Jessica Smith</div>
+                                <div class="user-name grey-text font-small-mid">@JessSmith99</div>
+
+                                <div class="d-flex justify-content-start align-items-center flex-wrap font-small mt-2">
+                                    <div class="followers font-weight-bold">234 
+                                        <span class="grey-text font-weight-400">Followers</span>
+                                    </div>
+                                    <div class="following font-weight-bold mx-3">120 
+                                        <span class="grey-text font-weight-400">Following</span>
+                                    </div>
+                                    <div class="print-out font-weight-bold">25 
+                                        <span class="grey-text font-weight-400">Print out</span>
+                                    </div>
+                                </div>
+                                <!-- Bio -->
+                                <div class="bio font-small mt-2">
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius neque qui aspernatur beatae facere, ipsa culpa quae quo nostrum at odit non odio recusandae non odio recusandae dignissimos.
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center flex-wrap mt-2 font-small">
+                                    <div class="location">
+                                        <i class="fas fa-map-marker-alt mr-1 green-text"></i>
+                                        <span class="grey-text">Delta, Nigeria</span> 
+                                    </div>
+                                    <div class="birthday mx-3">
+                                        <i class="fas fa-birthday-cake mr-1 red-text"></i>
+                                        <span class="grey-text"> Born April 8, 2000</span> 
+                                        </div>
+                                    <div class="date-joined">
+                                        <i class="fas fa-calendar mr-1 cyan-text"></i>
+                                        <span class="grey-text">Joined September 2019</span> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ALL EVENTS -->
+                        <div class="show-events">
+                            <div class="events mt-2 rounded-5 px-3 pt-3 pb-2">
+                                <div class="d-flex justify-content-start">
+                                    <div class="event-left">
+                                        <div class="user-image cyan mr-auto ml-1"><img src="wt-asset/images/avatar.png" alt=""></div>
+                                    </div>
+                                    <div class="event-right">
+                                        <div class="user-name font-small mt-1 font-weight-bold"> 
+                                            <a href="#" class="spectra add-space">Jessica Smith</a> 
+                                        </div>
+                                        <!-- Time Posted -->
+                                        <div class="time-posted font-12 grey-text"><i class="fas fa-clock mr-1 cloud"></i> 
+                                            13 hrs
+                                        </div>
+                                        <!-- Event Picture -->
+                                        <div class="event-picture-card border mt-2 rounded-10">
+    
+                                            <div class="img-card z-depth-1">
+                                                <div class="view" style="background-image: url('wt-asset/images/wedding1.jpg'); "></div>
+                                            </div>
+                                            <!-- Event Title -->
+                                             <div class="event-title font-weight-bold font-small mx-2 mt-2 add-space">
+                                                 <a href="" class="spectra"> House Warming Party</a>
+                                            </div>
+                                            <div class="time-location font-11-5 grey-text mx-2 mt-1 d-flex justify-content-start">
+                                                <div class="time mr-3"><i class="fas fa-clock amber-text mr-1"></i> 
+                                                    <span>7:00PM</span>
+                                                </div>
+                                                <div class="location"><i class="fas fa-map-marker-alt teal-text mr-1"></i> 
+                                                    <span>Lekki Phase 1</span>
+                                                </div>
+                                            </div>
+                                             <!-- Event Description -->
+                                             <div class="event-description font-small-mid mt-1 spectra mx-2 mb-2">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quam id tenetur officia labore eveniet consequatur.. <a href="" class="font-12 cloud font-weight-400">Read More</a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="response-buttons w-100 font-smaller mt-2 d-flex justify-content-around align-items-center">
+                                    <div class="item-1 d-flex justify-content-start align-items-center pointer">
+                                        <?xml version="1.0" encoding="utf-8"?>
+                                        <svg version="1.1" id="going" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                width="544.473px" height="539.973px" viewBox="38.602 88.107 544.473 539.973"
+                                                enable-background="new 38.602 88.107 544.473 539.973" xml:space="preserve">
+                                        <title>Going</title>
+                                        <g>
+                                            <path d="M562.433,447.051h-51.255c-4.92,0-8.912-4.551-8.912-10.157c0-5.608,3.992-10.159,8.912-10.159h51.255
+                                                c4.921,0,8.914,4.551,8.914,10.159C571.347,442.5,567.354,447.051,562.433,447.051z"/>
+                                            <path d="M562.676,528.891H447.72c-4.913,0-8.907-4.551-8.907-10.158s3.994-10.158,8.907-10.158h114.956
+                                                c4.92,0,8.912,4.551,8.912,10.158S567.596,528.891,562.676,528.891z"/>
+                                            <path d="M367.64,590.406h194.793c4.921,0,8.914,4.551,8.914,10.158s-3.993,10.158-8.914,10.158H367.64
+                                                c-4.921,0-8.912-4.551-8.912-10.158S362.719,590.406,367.64,590.406z"/>
+                                            <path d="M156.282,426.734h33.033l72.768-200.537c1.373-3.799,4.624-6.278,8.233-6.278c100.976,0,129.22-106.969,130.363-111.506
+                                                c0.866-3.468,3.278-6.143,6.328-7.05c3.063-0.9,6.307,0.102,8.546,2.655l113.21,129.046l34.571,36.894
+                                                c1.76,1.882,2.778,4.503,2.82,7.259c0.035,2.756-0.915,5.417-2.628,7.361l-285.33,323.17c-1.664,1.89-3.923,2.953-6.286,2.953
+                                                H58.952c-4.921,0-8.913-4.551-8.913-10.158v-52.692C50.032,481.06,97.689,426.734,156.282,426.734z M415.5,128.869
+                                                c-12.643,32.952-53.439,107.913-139.188,111.245l-14.443,39.812h48.267c4.92,0,8.913,4.551,8.913,10.158
+                                                s-3.993,10.158-8.913,10.158h-54.408c-0.409,0-0.79-0.075-1.178-0.136l-11.977,33.013h51.78c4.921,0,8.913,4.551,8.913,10.158
+                                                c0,5.607-3.992,10.158-8.913,10.158h-54.408c-1.559,0-3-0.495-4.269-1.3l-12.399,34.164h51.067c4.92,0,8.913,4.551,8.913,10.159
+                                                c0,5.606-3.993,10.157-8.913,10.157h-54.415c-1.317,0-2.558-0.345-3.687-0.934l-12.733,35.092
+                                                c-1.372,3.799-4.623,6.277-8.233,6.277H156.29c-45.745,0-83.482,39.807-87.974,90.622l179.261-0.25l262.382-297.065L415.5,128.869z
+                                                    M67.858,590.379h200.379l276.16-312.79l-21.638-23.092L257.522,554.786c-1.664,1.883-3.909,2.945-6.266,2.953l-183.405,0.257
+                                                L67.858,590.379L67.858,590.379z"/>
+                                        </g>
+                                        </svg>
+                                        <div class="green-text ml-1 mt-1">12</div>
+                                    </div>
+                                    <div class="item-2 d-flex justify-content-start align-items-center pointer">
+                                        <?xml version='1.0' encoding='utf-8'?>
+                                        <svg version="1.1" id="likes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129">
+                                        <title>Likes</title>
+                                        <g>
+                                            <path d="m121.6,40.1c-3.3-16.6-15.1-27.3-30.3-27.3-8.5,0-17.7,3.5-26.7,10.1-9.1-6.8-18.3-10.3-26.9-10.3-15.2,0-27.1,10.8-30.3,27.6-4.8,24.9 10.6,58 55.7,76 0.5,0.2 1,0.3 1.5,0.3 0.5,0 1-0.1 1.5-0.3 45-18.4 60.3-51.4 55.5-76.1zm-57,67.9c-39.6-16.4-53.3-45-49.2-66.3 2.4-12.7 11.2-21 22.3-21 7.5,0 15.9,3.6 24.3,10.5 1.5,1.2 3.6,1.2 5.1,0 8.4-6.7 16.7-10.2 24.2-10.2 11.1,0 19.8,8.1 22.3,20.7 4.1,21.1-9.5,49.6-49,66.3z"/>
+                                        </g>
+                                        </svg>
+                                        <div class="red-text ml-1 mt-1">231</div>
+                                    </div>
+                                    <div class="item-3 d-flex justify-content-start align-items-center pointer">
+                                        <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+                                        <svg xmlns="http://www.w3.org/2000/svg" id="comments" viewBox="0 0 24 24">
+                                            <title>Comments</title>
+                                            <path d="M19,2H5A3,3,0,0,0,2,5V15a3,3,0,0,0,3,3H16.59l3.7,3.71A1,1,0,0,0,21,22a.84.84,0,0,0,.38-.08A1,1,0,0,0,22,21V5A3,3,0,0,0,19,2Zm1,16.59-2.29-2.3A1,1,0,0,0,17,16H5a1,1,0,0,1-1-1V5A1,1,0,0,1,5,4H19a1,1,0,0,1,1,1Z"/>
+                                        </svg>
+                                        <div class="orange-text ml-1 mt-1">122</div>
+                                    </div>
+                                    <div class="item-4 d-flex justify-content-start align-items-center pointer">
+                                            <?xml version="1.0" encoding="utf-8"?>
+                                            <svg version="1.1" id="shares" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 174.445 592.121 505.019" enable-background="new 0 174.445 592.121 505.019" xml:space="preserve">
+                                                <title>Shares</title>
+                                            <path id="Arrow_Left_1_" d="M5.49,663.634c-0.92-6.251-20.415-156.447,66.989-259.803
+                                                c53.699-63.509,136.558-98.277,243.549-101.719l0.569-104.416c0-7.181,4.105-13.71,10.513-16.798
+                                                c6.423-3.032,14.026-2.158,19.53,2.381l238.707,197.968c4.271,3.535,6.756,8.818,6.774,14.398
+                                                c0.019,5.581-2.448,10.864-6.719,14.398L346.677,609.891c-5.483,4.595-13.162,5.544-19.532,2.456
+                                                c-6.461-3.069-10.548-9.637-10.548-16.817l-0.569-106.76C58.138,488.584,39.804,655.56,39.179,662.462
+                                                c-0.792,9.375-6.664,16.686-15.979,16.983c-0.22,0.019-0.423,0.019-0.625,0.019C13.461,679.464,6.852,672.749,5.49,663.634z
+                                                 M347.986,456.699c3.461,3.497,5.413,8.223,5.413,13.171v86.278l191.246-160.391L353.399,236.854v83.581
+                                                c0,10.287-8.23,18.603-18.41,18.603c-104.747,0-184.769,30.657-234.436,88.846c-37.351,43.79-54.527,97.384-60.399,141.862
+                                                c40.205-55.51,110.6-118.367,294.816-118.479c0,0,0.019,0,0.036,0C339.866,451.268,344.542,453.221,347.986,456.699z"/>
+                                            </svg>
+                                        <div class="cyan-text ml-1 mt-1">30</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="loading text-center mt-3 py-3 ash blue-text"> 
+                            <i class="fas fa-spinner fa-spin"></i> 
+                            Loading
+                        </div>
+    
+                    </div>
+                </div>
+
+                <div class="col-3 right">
+                    <div class="right-bar rounded-5 white">
+                        <div class="explore-events">
+                            <div class="event-question ash font-weight-bold pl-4 py-3 font-smaller border-bottom">Explore Events</div>
+    
+                            <div class="event-sections d-flex justify-content-around align-items-center flex-wrap mt-2 px-3">
+                                <div class="section d-flex flex-column justify-content-center align-items-center mb-2 blue white-text">
+                                    <?xml version="1.0" encoding="UTF-8"?>
+                                    <svg width="22px" height="23px" viewBox="0 0 22 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Outlined" transform="translate(-135.000000, -2900.000000)">
+                                                <g id="Image" transform="translate(100.000000, 2626.000000)">
+                                                    <g id="Outlined-/-Image-/-wb_sunny" transform="translate(34.000000, 274.000000)">
+                                                        <g>
+                                                            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                                                            <path d="M6.76,4.84 L4.96,3.05 L3.55,4.46 L5.34,6.25 L6.76,4.84 Z M1,10.5 L4,10.5 L4,12.5 L1,12.5 L1,10.5 Z M11,0.55 L13,0.55 L13,3.5 L11,3.5 L11,0.55 Z M19.04,3.045 L20.448,4.452 L18.658,6.242 L17.251,4.834 L19.04,3.045 Z M17.24,18.16 L19.03,19.96 L20.44,18.55 L18.64,16.76 L17.24,18.16 Z M20,10.5 L23,10.5 L23,12.5 L20,12.5 L20,10.5 Z M12,5.5 C8.69,5.5 6,8.19 6,11.5 C6,14.81 8.69,17.5 12,17.5 C15.31,17.5 18,14.81 18,11.5 C18,8.19 15.31,5.5 12,5.5 Z M12,15.5 C9.79,15.5 8,13.71 8,11.5 C8,9.29 9.79,7.5 12,7.5 C14.21,7.5 16,9.29 16,11.5 C16,13.71 14.21,15.5 12,15.5 Z M11,19.5 L13,19.5 L13,22.45 L11,22.45 L11,19.5 Z M3.55,18.54 L4.96,19.95 L6.75,18.15 L5.34,16.74 L3.55,18.54 Z" id="🔹-Icon-Color" fill="#fff"></path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <div class="mt-1">Today</div>
+                                </div>
+                                <div class="section d-flex flex-column justify-content-center align-items-center mb-2 orange white-text">
+                                    <i class="fas fa-cloud"></i>
+                                    <div class="mt-1">Tomorrrow</div>
+                                </div>
+                                <div class="section d-flex flex-column justify-content-center align-items-center mb-2 purple white-text">
+                                    <?xml version="1.0" encoding="iso-8859-1"?>
+                                    <svg version="1.1"  width="24px" height="23px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100.353 100.353" style="enable-background:new 0 0 100.353 100.353;" fill="#fff" xml:space="preserve">
+                                    <g>
+                                        <path d="M87.225,21.452H71.377v-6.845c0-0.829-0.672-1.5-1.5-1.5s-1.5,0.671-1.5,1.5v6.845H29.912v-6.845
+                                            c0-0.829-0.671-1.5-1.5-1.5s-1.5,0.671-1.5,1.5v6.845H12.776c-0.829,0-1.5,0.671-1.5,1.5v62.44c0,0.828,0.671,1.5,1.5,1.5h74.449
+                                            c0.828,0,1.5-0.672,1.5-1.5v-62.44C88.725,22.123,88.053,21.452,87.225,21.452z M85.725,83.892H14.276v-59.44h12.636v4.541
+                                            c0,0.829,0.671,1.5,1.5,1.5s1.5-0.671,1.5-1.5v-4.541h38.465v4.541c0,0.829,0.672,1.5,1.5,1.5s1.5-0.671,1.5-1.5v-4.541h14.348
+                                            V83.892z"/>
+                                        <path d="M70.898,64.342l-5.061-5.063c-0.586-0.586-1.535-0.586-2.121,0c-0.586,0.585-0.586,1.535,0,2.121l5.061,5.063l-5.061,5.063
+                                            c-0.586,0.586-0.586,1.536,0,2.121c0.293,0.293,0.677,0.439,1.061,0.439s0.768-0.146,1.061-0.439l5.061-5.063l5.061,5.063
+                                            c0.293,0.293,0.677,0.439,1.061,0.439s0.768-0.146,1.061-0.439c0.586-0.585,0.586-1.535,0-2.121l-5.061-5.063l5.061-5.063
+                                            c0.586-0.586,0.586-1.536,0-2.121c-0.586-0.586-1.535-0.586-2.121,0L70.898,64.342z"/>
+                                        <path d="M33.948,38.578h-9.249c-0.829,0-1.5,0.671-1.5,1.5v9.247c0,0.829,0.671,1.5,1.5,1.5h9.249c0.829,0,1.5-0.672,1.5-1.5
+                                            v-9.247C35.448,39.249,34.777,38.578,33.948,38.578z M32.448,47.825h-6.249v-6.247h6.249V47.825z"/>
+                                        <path d="M55.021,38.578h-9.246c-0.829,0-1.5,0.671-1.5,1.5v9.247c0,0.829,0.671,1.5,1.5,1.5h9.246c0.828,0,1.5-0.672,1.5-1.5
+                                            v-9.247C56.521,39.249,55.85,38.578,55.021,38.578z M53.521,47.825h-6.246v-6.247h6.246V47.825z"/>
+                                        <path d="M33.948,59.848h-9.249c-0.829,0-1.5,0.672-1.5,1.5v9.247c0,0.828,0.671,1.5,1.5,1.5h9.249c0.829,0,1.5-0.672,1.5-1.5
+                                            v-9.247C35.448,60.52,34.777,59.848,33.948,59.848z M32.448,69.095h-6.249v-6.247h6.249V69.095z"/>
+                                        <path d="M55.021,59.848h-9.246c-0.829,0-1.5,0.672-1.5,1.5v9.247c0,0.828,0.671,1.5,1.5,1.5h9.246c0.828,0,1.5-0.672,1.5-1.5
+                                            v-9.247C56.521,60.52,55.85,59.848,55.021,59.848z M53.521,69.095h-6.246v-6.247h6.246V69.095z"/>
+                                        <path d="M65.884,38.578c-0.828,0-1.5,0.671-1.5,1.5v9.247c0,0.829,0.672,1.5,1.5,1.5h9.249c0.828,0,1.5-0.672,1.5-1.5v-9.247
+                                            c0-0.829-0.672-1.5-1.5-1.5H65.884z M73.633,47.825h-6.249v-6.247h6.249V47.825z"/>
+                                    </g>
+                                    </svg>
+                                    <div class="mt-1">This Week</div>
+                                </div>
+                                <div class="section d-flex flex-column justify-content-center align-items-center mb-2 grey white-text">
+                                    <i class="fas fa-calendar"></i>
+                                    <div class="mt-1">Choose Date</div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Categories -->
+                        <div class="categories mt-3">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width=" 24px" height="24px">
+                                        <defs>
+                                             <path fill="#000000" id="i-2180" d="M42.866,2.009c-0.196,0.026-4.906,0.677-13.14,3.03c-7.008,2.002-12.942,4.941-13.191,5.066l-0.555,0.275v26.214 c-0.727-0.357-1.703-0.589-3.021-0.595c-4.248,0-8.86,2.4-8.957,5.973c-0.029,1.049,0.305,1.963,0.965,2.646 c0.857,0.889,2.25,1.366,4.027,1.381h0.084l0,0c1.979,0,4.143-0.555,5.788-1.486c2.022-1.144,3.136-2.746,3.136-4.514 c0-0.133-0.008-0.275-0.021-0.423V21.846c1.58-0.805,6.628-3.266,12.295-4.885c5.812-1.66,9.875-2.463,11.723-2.786l-0.003,18.431 c-0.73-0.363-1.716-0.6-3.051-0.605c-4.234,0-8.832,2.4-8.928,5.973c-0.028,1.059,0.306,1.98,0.966,2.663 c0.86,0.891,2.2,1.35,3.983,1.364h0.084c0.001,0,0.001,0,0.001,0c1.979,0,4.147-0.555,5.797-1.485 c2.03-1.144,3.147-2.747,3.147-4.515L44,1.855L42.866,2.009z M13.881,42.773C12.523,43.541,10.705,44,9.056,44 c-1.21-0.01-2.181-0.283-2.65-0.77c-0.286-0.297-0.418-0.689-0.404-1.203C6.063,39.723,9.727,38,12.997,38 c3.005,0.014,3.005,1.355,3.005,2C16.002,41.369,14.674,42.325,13.881,42.773z M29.727,15.039c-5.051,1.442-9.529,3.484-11.746,4.57 v-7.98c1.635-0.773,6.674-3.061,12.295-4.668C36.068,5.306,40.142,4.5,42,4.175l-0.001,7.969 C40.283,12.431,36.054,13.23,29.727,15.039z M39.866,38.772C38.502,39.541,36.679,40,35.027,40c-1.191-0.01-2.146-0.277-2.606-0.754 c-0.286-0.297-0.419-0.695-0.404-1.219C32.078,35.723,35.725,34,38.981,34c3.014,0.014,3.014,1.406,3.014,2 C41.995,37.367,40.661,38.324,39.866,38.772z"/> 
+                                        </defs>
+                                        <use x="0" y="0" xlink:href="#i-2180"/>
+                                     </svg>
+                                    Party
+                                </li>
+
+                                <li>
+                                    <?xml version="1.0" encoding="utf-8"?>
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 101 101" style="enable-background:new 0 0 101 101;" xml:space="preserve">
+                                    <path d="M82.9,86.1L69.9,40.6c0-0.1,0-0.1-0.1-0.2c-2.3-5.3-6.5-9.5-11.9-11.6L63.1,18c0.1-0.2,0.1-0.4,0.1-0.6
+                                        c0-3.8-2.7-7.1-6.3-7.9v-7C57,1.7,56.3,1,55.5,1S54,1.7,54,2.5v6.8c-1.5,0.2-3,0.9-4.1,1.9C48.5,10,46.8,9.3,45,9.3V2.5
+                                        C45,1.7,44.3,1,43.5,1S42,1.7,42,2.5v7.2c-3.2,1.1-5.5,4.1-5.5,7.7c0,0.2,0.1,0.4,0.1,0.7L41.9,29c-5.2,2.2-9.4,6.4-11.6,11.7
+                                        c0,0.1,0,0.1-0.1,0.2L18.5,86.1c-0.1,0.4,0,0.9,0.3,1.3c0.3,0.4,0.7,0.6,1.2,0.6h61.5c0.5,0,0.9-0.2,1.2-0.6
+                                        C82.9,87,83,86.5,82.9,86.1z M67.1,41.5l7.7,27.3C61.6,68,51,57.1,51,43.8c0-0.1,0-0.1,0-0.2c0-0.1,0-0.1,0-0.2V33.2
+                                        c1.9-0.2,3.7-0.8,5.1-1.9C61,33,65,36.7,67.1,41.5z M44.6,12.2c1.6,0,3.1,0.7,4.1,2.1c0.3,0.4,0.7,0.6,1.2,0.6c0,0,0,0,0,0
+                                        c0.5,0,0.9-0.2,1.2-0.6c1-1.3,2.5-2.1,4.1-2.1c2.7,0,5,2.1,5.1,4.8l-5.5,11.5c-1.2,1.1-3,1.7-4.9,1.7c-1.9,0-3.6-0.6-4.8-1.6
+                                        L39.5,17C39.6,14.4,41.9,12.2,44.6,12.2z M33.1,41.7c2-4.8,5.9-8.5,10.7-10.3c1.2,0.8,2.6,1.4,4.2,1.7v10.4c0,0.1,0,0.1,0,0.2
+                                        c0,0.1,0,0.1,0,0.2c0,13.8-9.3,24.3-21.9,25.1L33.1,41.7z M21.9,85l3.4-13c11.6-0.3,21-7.9,24.3-18.8c3.8,10.6,14,18.3,26.1,18.6
+                                        L79.4,85H21.9z"/>
+                                    </svg>
+                                    Fashion
+                                </li>
+
+                                <li>
+                                    <?xml version="1.0" encoding="iso-8859-1"?>
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 512.094 512.094" style="enable-background:new 0 0 512.094 512.094;" xml:space="preserve">
+                                    <g>
+                                        <path d="M340.207,192.31c-15.843,0-31.035,6.743-41.678,18.5c-2.78,3.071-2.544,7.813,0.526,10.594s7.814,2.543,10.594-0.526
+                                            c7.806-8.622,18.943-13.567,30.558-13.567c11.614,0,22.752,4.945,30.558,13.567c1.48,1.635,3.518,2.466,5.563,2.466
+                                            c1.795,0,3.596-0.641,5.031-1.94c3.07-2.78,3.306-7.523,0.526-10.594C371.241,199.053,356.05,192.31,340.207,192.31z"/>
+                                        <path d="M171.843,192.31c-15.819,0-30.985,6.745-41.611,18.505c-2.777,3.073-2.537,7.816,0.537,10.593
+                                            c3.073,2.777,7.816,2.535,10.593-0.537c7.787-8.619,18.897-13.562,30.481-13.562c11.584,0,22.694,4.943,30.481,13.562
+                                            c1.48,1.639,3.52,2.472,5.567,2.472c1.792,0,3.591-0.639,5.026-1.935c3.073-2.777,3.313-7.52,0.537-10.593
+                                            C202.828,199.054,187.662,192.31,171.843,192.31z"/>
+                                        <path d="M436.993,82.4c-2.723-3.123-7.461-3.444-10.582-0.722c-3.122,2.723-3.444,7.46-0.722,10.582
+                                            c37.407,42.882,57.009,97.918,55.193,154.968c-1.823,57.32-25.174,111.233-65.749,151.809
+                                            c-22.448,22.447-48.985,39.662-78.104,50.866l19.305-13.789c5.892-4.208,9.41-11.043,9.41-18.284c0-7.31-3.401-13.953-9.331-18.228
+                                            c-5.93-4.274-13.308-5.399-20.242-3.088l-6.648,2.216l41.609-34.674c5.011-4.175,8.054-10.307,8.349-16.822
+                                            c0.296-6.516-2.18-12.897-6.792-17.509c-7.816-7.817-20.167-9.04-29.363-2.907l-31.627,21.084l28.843-34.612
+                                            c7.76-9.313,7.148-22.799-1.422-31.369c-4.398-4.398-10.245-6.82-16.464-6.82c-6.22,0-12.067,2.422-16.464,6.82l-30.999,30.999
+                                            l20.018-37.176c4.919-9.135,3.294-20.202-4.042-27.538c-4.815-4.816-11.474-7.279-18.262-6.76
+                                            c-6.791,0.519-12.995,3.967-17.022,9.459L202.04,324.33v-9.7c0-9.272-5.91-17.472-14.706-20.403
+                                            c-10.308-3.437-21.588,1.377-26.239,11.196l-31.35,66.183c-7.22,15.242-10.213,31.709-9.25,47.855
+                                            c-4.16-3.15-8.217-6.446-12.14-9.868c-3.122-2.723-7.858-2.4-10.582,0.722c-2.723,3.122-2.4,7.859,0.722,10.582
+                                            c8.054,7.025,16.637,13.551,25.52,19.42c4.458,15.88,12.897,30.725,25.06,42.888c19.1,19.1,44.194,28.89,69.478,28.889
+                                            c19.885-0.001,39.89-6.059,57.177-18.407l25.198-17.998c0.106-0.016,0.212-0.025,0.319-0.045
+                                            c47.276-9.01,90.324-31.833,124.491-65.999c43.282-43.282,68.19-100.793,70.135-161.938
+                                            C497.811,186.855,476.9,128.148,436.993,82.4z M267.014,481.481c-33.275,23.766-78.414,20.032-107.33-8.883
+                                            c-24.831-24.831-31.414-62.836-16.381-94.571l31.35-66.183c1.101-2.324,3.429-3.722,5.885-3.722c0.683,0,1.375,0.108,2.054,0.334
+                                            c2.661,0.887,4.449,3.368,4.449,6.173v32.61c0,3.243,2.084,6.119,5.167,7.128c3.082,1.01,6.464-0.077,8.381-2.693l67.394-91.9
+                                            c1.458-1.988,3.613-3.186,6.07-3.374c2.456-0.185,4.769,0.668,6.512,2.411c2.616,2.616,3.195,6.563,1.441,9.82l-44.245,82.169
+                                            c-1.764,3.276-0.859,7.352,2.126,9.573c2.986,2.221,7.149,1.917,9.78-0.714l67.133-67.133c1.564-1.564,3.645-2.426,5.857-2.426
+                                            s4.292,0.862,5.857,2.427c3.049,3.049,3.267,7.847,0.506,11.16l-61.948,74.338c-2.385,2.863-2.308,7.042,0.183,9.814
+                                            c2.491,2.772,6.639,3.295,9.739,1.228l74.654-49.769c3.269-2.179,7.658-1.744,10.436,1.033c1.663,1.663,2.52,3.873,2.414,6.223
+                                            s-1.161,4.473-2.967,5.979l-72.145,60.12c-2.77,2.309-3.505,6.261-1.751,9.412c1.755,3.149,5.502,4.606,8.924,3.465l44.357-14.785
+                                            c2.305-0.769,4.757-0.395,6.729,1.026c1.971,1.421,3.102,3.629,3.102,6.059c0,2.407-1.169,4.678-3.128,6.077L267.014,481.481z"/>
+                                        <path d="M31.21,232.673c1.824-57.32,25.174-111.233,65.75-151.809c40.576-40.575,94.489-63.926,151.809-65.749
+                                            c57.041-1.827,112.085,17.786,154.968,55.193c3.121,2.723,7.859,2.399,10.582-0.722c2.723-3.122,2.4-7.859-0.722-10.582
+                                            C367.849,19.097,309.136-1.801,248.292,0.122C187.146,2.067,129.635,26.975,86.353,70.257
+                                            c-43.282,43.282-68.19,100.793-70.135,161.938C14.282,293.046,35.194,351.753,75.1,397.501c1.483,1.7,3.563,2.57,5.655,2.57
+                                            c1.749,0,3.506-0.608,4.927-1.848c3.122-2.723,3.444-7.46,0.722-10.582C48.997,344.758,29.395,289.722,31.21,232.673z"/>
+                                    </g>
+                                    </svg>
+                                    Comedy
+                                </li>
+
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" width=" 24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                                    Art
+                                </li>
+
+                                <li>
+                                    <?xml version="1.0" encoding="iso-8859-1"?>
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 100.75 100.75" style="enable-background:new 0 0 100.75 100.75;" xml:space="preserve">
+                                    <path d="M49.971,10.444c-21.891,0-39.699,17.809-39.699,39.699s17.809,39.699,39.699,39.699S89.67,72.033,89.67,50.143
+                                        S71.862,10.444,49.971,10.444z M80.963,30.524C63.613,31.403,51.771,45.209,49.14,48.57c-2.384-0.233-9.195-1.162-16.304-4.478
+                                        c2.083-4.974,11.274-23.454,33.734-26.665C72.46,20.429,77.435,24.971,80.963,30.524z M49.971,13.444
+                                        c4.052,0,7.948,0.67,11.596,1.888c-20.345,5-29.103,22.011-31.408,27.398c-4.434-2.456-8.772-5.925-12.019-10.817
+                                        C24.479,20.889,36.368,13.444,49.971,13.444z M13.272,50.143c0-5.426,1.193-10.576,3.316-15.215
+                                        C27.069,49.196,45.679,51.322,49.3,51.602c0.902,2.189,3.177,8.354,3.682,15.889c-6.063,0.814-25.686,1.89-39.628-15.01
+                                        C13.306,51.706,13.272,50.928,13.272,50.143z M49.17,86.822c-17.276-0.373-31.648-12.733-35.103-29.083
+                                        c11.051,11.04,24.479,13.112,32.996,13.112c2.486,0,4.551-0.177,6.019-0.358C53.076,75.742,52.08,81.446,49.17,86.822z
+                                            M70.152,80.773c-5.112,3.379-11.114,5.509-17.573,5.966c7.688-16.017,0.73-33.501-0.706-36.765
+                                        c1.836-2.226,6.615-7.511,13.491-11.511C68.786,43.342,78.956,60.454,70.152,80.773z M74.65,77.282
+                                        c5.967-19.146-3.011-34.941-6.631-40.238c4.268-2.087,9.197-3.562,14.629-3.574c2.565,5.007,4.023,10.671,4.023,16.673
+                                        C86.671,60.885,82.031,70.564,74.65,77.282z"/>
+                                    </svg>
+                                        
+                                    Sports
+                                </li>
+
+                                <li> 
+                                    <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                                     Others
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    <script src="wt-asset/js/app.js"></script>
+</body>
+</html>
+
+
